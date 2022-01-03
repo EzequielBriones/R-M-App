@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- ------------------------------ Meta Tags -------------------------------->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ------------------------------ End of Meta Tags -------------------------------->
+
+    <!-- ------------------------------ Favicons -------------------------------->
+    <link rel="shortcut icon" href="vendors/favicon/favicon.png" type="image/x-icon" />
+    <!-- ------------------------------ End of Favicons -------------------------------->
+
+    <!-- ------------------------------ Style Link -------------------------------->
+    <link rel="stylesheet" href="style.css" />
+    <!-- ------------------------------ End of Style Link -------------------------------->
+
+    <!-- ------------------------------ Title Tag -------------------------------->
+    <title>Rick and Morty API</title>
+    <!-- ------------------------------ End of Title Tag -------------------------------->
+  </head>
+  <body>
+    <!-- ------------------------------ Main Start -------------------------------->
+    <main>
+      <header>
+        <h1>App de Rick & Morty</h1>
+        <h3>Construido por full-stack inicial</h3>
+      </header>
+      <!-- ///// Get-Reset Btns Start /////-->
+      <button id="btn-get">Get Data</button>
+      <button class="reset-btn">Reset</button>
+      <!-- ///// Get-Reset Btns End /////-->
+
+      <!-- ///// Data-Container Start /////-->
+      <section id="data-container"></section>
+      <!-- ///// Data-Container End /////-->
+
+      <!-- ///// Paginator Start /////-->
+      <section class="paginator">
+        <button class="disabled" id="prev-btn">prev</button>
+        <button id="next-btn">next</button>
+      </section>
+      <!-- ///// Paginator End /////-->
+    </main>
+    <!-- ------------------------------ Main End -------------------------------->
+
+    <!-- ------------------------------ Javascript Script Start -------------------------------->
+    <script src="app.js"></script>
+    <!-- ------------------------------ Javascript Script End -------------------------------->
+  </body>
+</html>

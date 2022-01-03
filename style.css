@@ -1,0 +1,81 @@
+/****************************************** General Styles **********************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(assets/images/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.829);
+}
+
+header {
+  background: hsla(200, 95%, 70%, 0.7);
+  width: 30rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+  backdrop-filter: blur(5px);
+}
+
+button {
+  width: 8rem;
+  height: 3rem;
+  background-color: #53abee;
+  color: white;
+  border: 2px solid #63cbfb;
+  cursor: pointer;
+}
+
+img {
+  width: 80%;
+}
+/****************************************** Main Section **********************************/
+
+.reset-btn {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+#btn-get {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+#data-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 98%;
+  margin: 0 auto;
+}
+
+.card {
+  border: 1px solid;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  background-color: #6cac6c;
+  color: black;
+}
+
+.paginator {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  gap: 2rem;
+}
+
+.paginator > button {
+  visibility: hidden;
+}
